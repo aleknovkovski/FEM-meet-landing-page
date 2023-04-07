@@ -209,3 +209,26 @@ h2 {
     background: rgba(77, 150, 169, 1);
 }
 
+.footer-content {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    gap: 92px;
+}
+
+.footer-content-left {
+    display: flex;
+}
+
+.footer-content-left p {
+ width: 350px;
+}
+
+.footer-content h2 {
+    margin: 0;
+}
+
+.footer-content-button {
+    flex-shrink: 0;
+}
