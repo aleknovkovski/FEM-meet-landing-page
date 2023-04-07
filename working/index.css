@@ -11,11 +11,6 @@
 
 /* I'm only going to use this off-set look for hero images in the 1400-> 1600 range*/
 /* And another off-set free look from 1600 to 1900, and a contained look from 1900 up*/
-.hero-content-box {
-    flex-shrink: 0;
-    width: 540px;
-    background-color: red;
-}
 
 .hero-image-left {
     width: 35%;
@@ -30,4 +25,10 @@
     position: relative;
     right: -40px;
     top: 60px
+}
+
+.hero-content-box {
+    flex-shrink: 0;
+    width: 540px;
+    background-color: red;
 }
