@@ -278,15 +278,18 @@ h1 {
 }
 
 .people-boxes {
+    width: 100%;
     display: flex;
+    justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 11px;
     margin-top: 67px;
     margin-bottom: 39px;
 }
 
 .people-boxes img {
-    width: 164px;
+    width: 151px;
     border-radius: 8px;
 }
 
@@ -314,6 +317,13 @@ h2 {
 .benefits-box h2 {
     width: 445px;
     margin: 0 auto 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .people-boxes img {
+        width: 164px;
+        border-radius: 8px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
