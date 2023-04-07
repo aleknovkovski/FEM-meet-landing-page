@@ -30,11 +30,21 @@ main {
     margin-bottom: 72px;
 }
 
+.container {
+    width: 689px;
+    margin: 0 auto;
+}
+
 @media screen and (min-width:1440px) {
     body {
         font-weight: 500;
         font-size: 18px;
         line-height: 26px;
+    }
+
+    .container {
+        width: 1110px;
+        margin: 0 auto;
     }
 }
 
@@ -219,11 +229,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.container {
-    width: 1110px;
-    margin: 0 auto;
 }
 
 .people-boxes {
