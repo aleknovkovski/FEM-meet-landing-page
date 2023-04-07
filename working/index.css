@@ -1,3 +1,10 @@
 *{
     margin: 0;
 }
+
+main {
+    overflow: hidden;
+}
+.hero {
+    width: 120vw;
+}
