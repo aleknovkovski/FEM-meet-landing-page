@@ -90,7 +90,8 @@ main {
 
 @media screen and (min-width: 768px) {
     .hero {
-        gap: 2.65rem;
+        column-gap: 2.25rem; /* Between the two image parts */
+        row-gap: 72px; /* Between image parts and content box */
         margin-top: 54px; /* compensates for the scaling which bring images up by that much*/
     }
 }
