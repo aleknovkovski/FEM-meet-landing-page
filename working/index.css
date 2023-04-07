@@ -54,7 +54,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 3rem;
+    gap: 1rem;
     transform: scale(1.15);
 }
 
@@ -76,11 +76,16 @@ main {
 /* I'm only going to use this off-set look for hero images in the 1440-> 1920 range*/
 /* And another off-set free look from 1920 upwards*/
 
+@media screen and (min-width: 768px) {
+    .hero {
+        gap: 2.65rem;
+    }
+}
+
 @media screen and (min-width: 1440px) {
     .hero {
         margin-top: 140px;
         width: 100vw;
-        display: flex;
         justify-content: space-between;
         align-items: flex-start;
         flex-wrap: unset;
