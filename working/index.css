@@ -53,3 +53,13 @@ h1 {
 .hero-content-box p {
     margin-bottom: 32px;
 }
+
+.btn {
+    padding: 1em 2em;
+    background: #4D96A9;
+    border-radius: 1.8125em;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 900;
+}
