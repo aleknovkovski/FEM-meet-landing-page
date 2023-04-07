@@ -13,12 +13,16 @@ body {
 
 header {
     margin: 0 auto;
-    padding: 61px;
+    padding: 64px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     z-index: 1;
+}
+
+.header-logo-image {
+    width: 119px;
 }
 
 main {
@@ -28,7 +32,7 @@ main {
 
 .hero {
     /*width: 100vw;*/
-    margin-top: 140px;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -55,6 +59,7 @@ main {
 
 @media screen and (min-width: 1440px) {
     .hero {
+        margin-top: 140px;
         width: 100vw;
         display: flex;
         justify-content: space-between;
