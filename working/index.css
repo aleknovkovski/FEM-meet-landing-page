@@ -66,7 +66,7 @@ main {
     justify-content: center;
     gap: 1rem;
     transform: scale(1.15);
-    margin-top: 43px; /* compensates for the scaling which bring images up by that much*/
+    margin-top: 31px; /* compensates for the scaling which bring images up by that much*/
     margin-bottom: 100px;
 }
 
