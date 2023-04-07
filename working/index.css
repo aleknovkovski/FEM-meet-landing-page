@@ -30,12 +30,13 @@ main {
     margin-bottom: 72px;
 }
 
-.container {
-    width: 689px;
-    margin: 0 auto;
-}
-
 @media screen and (min-width: 768px) {
+
+    .container {
+        width: 689px;
+        margin: 0 auto;
+    }
+
     header {
         padding: 48px 0 64px 0;
     }
