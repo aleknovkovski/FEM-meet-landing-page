@@ -67,7 +67,7 @@ main {
     gap: 1rem;
     transform: scale(1.15);
     margin-top: 31px; /* compensates for the scaling which bring images up by that much*/
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .hero-image-left {
@@ -114,6 +114,7 @@ main {
         column-gap: 2.25rem; /* Between the two image parts */
         row-gap: 72px; /* Between image parts and content box */
         margin-top: 54px; /* compensates for the scaling which bring images up by that much*/
+        margin-bottom: 100px;
     }
 
     .hero-content-box h1 {
