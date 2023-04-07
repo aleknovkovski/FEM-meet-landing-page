@@ -12,10 +12,13 @@ body {
 }
 
 header {
+    margin: 0 auto;
     padding: 61px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 1;
 }
 
 main {
@@ -23,7 +26,29 @@ main {
     margin-bottom: 72px;
 }
 
+.hero {
+    /*width: 100vw;*/
+    margin-top: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    transform: scale(1.15);
+}
 
+.hero-image-left {
+    width: 44vw;
+    order: 1;
+}
+
+.hero-image-right {
+    width: 44vw;
+    order: 2;
+}
+
+.hero-content-box {
+    order: 3;
+}
 
 /* I'm only going to use this off-set look for hero images in the 1440-> 1920 range*/
 /* And another off-set free look from 1920 upwards*/
@@ -67,9 +92,11 @@ main {
     .hero {
         justify-content: center;
     }
+
     .hero-image-left {
         width: 20%;
     }
+
     .hero-image-right {
         width: 20%;
     }
@@ -264,7 +291,7 @@ h2 {
 }
 
 .footer-content-left p {
- width: 350px;
+    width: 350px;
 }
 
 .footer-content h2 {
