@@ -299,7 +299,7 @@ h2 {
 .footer-box {
     position: relative;
     background-size: cover;
-    height: 308px;
+    height: 428px;
 }
 
 .footer-box p, .footer-box h2 {
@@ -337,23 +337,49 @@ h2 {
 .footer-content {
     display: flex;
     height: 100%;
-    flex-direction: row;
-    align-items: center;
-    gap: 92px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
 }
 
 .footer-content-left {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
 }
 
 .footer-content-left p {
-    width: 350px;
+    width: 513px;
 }
 
 .footer-content h2 {
-    margin: 0;
+    margin: 0; /*will use gap instead */
+    width: 457px;
 }
 
 .footer-content-button {
     flex-shrink: 0;
+}
+
+@media screen and (min-width: 1440px) {
+    .footer-box {
+        height: 308px;
+    }
+
+    .footer-content {
+        flex-direction: row;
+        align-items: center;
+        gap: 92px;
+        text-align: left;
+    }
+
+    .footer-content-left {
+        flex-direction: row;
+    }
+
+    .footer-content-left p {
+        width: 350px;
+    }
 }
