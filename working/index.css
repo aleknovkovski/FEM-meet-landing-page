@@ -373,6 +373,7 @@ h2 {
     position: relative;
     background-size: cover;
     height: 428px;
+    padding: 1em;
 }
 
 .footer-box p, .footer-box h2 {
@@ -420,20 +421,26 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 32px;
-}
-
-.footer-content-left p {
-    width: 513px;
-}
-
-.footer-content h2 {
-    margin: 0; /*will use gap instead */
-    width: 457px;
 }
 
 .footer-content-button {
     flex-shrink: 0;
+}
+
+@media screen and (min-width: 768px) {
+
+    .footer-content-left {
+        gap: 32px;
+    }
+
+    .footer-content-left p {
+        width: 513px;
+    }
+
+    .footer-content h2 {
+        margin: 0; /*will use gap instead */
+        width: 457px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
