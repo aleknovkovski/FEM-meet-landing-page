@@ -13,7 +13,7 @@ body {
 
 header {
     margin: 0 auto;
-    padding-top: 64px;
+    padding: 48px 0 54px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,6 +35,12 @@ main {
     margin: 0 auto;
 }
 
+@media screen and (min-width: 768px) {
+    header {
+        padding: 48px 0 64px 0;
+    }
+}
+
 @media screen and (min-width: 1440px) {
     body {
         font-weight: 500;
@@ -50,12 +56,12 @@ main {
 
 .hero {
     /*width: 100vw;*/
-    margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
     transform: scale(1.15);
+    margin-top: 43px; /* compensates for the scaling which bring images up by that much*/
 }
 
 .hero-image-left {
@@ -79,6 +85,7 @@ main {
 @media screen and (min-width: 768px) {
     .hero {
         gap: 2.65rem;
+        margin-top: 54px; /* compensates for the scaling which bring images up by that much*/
     }
 }
 
