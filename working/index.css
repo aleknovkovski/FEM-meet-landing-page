@@ -11,6 +11,13 @@ body {
     background: #FAFAFA;
 }
 
+header {
+    height: 169px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 main {
     overflow: hidden;
 }
@@ -45,6 +52,12 @@ main {
     flex-shrink: 0;
     width: 540px;
     text-align: center;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
 
 h1 {
