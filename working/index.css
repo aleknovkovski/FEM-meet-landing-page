@@ -80,9 +80,30 @@ main {
     order: 2;
 }
 
+.medium-box {
+    width: 540px;
+}
+
 .hero-content-box {
     order: 3;
     text-align: center;
+}
+
+.hero-content-box h1, .hero-content-box p {
+    max-width: 287px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-content-box p {
+    margin-bottom: 32px;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
 }
 
 /* I'm only going to use this off-set look for hero images in the 1440-> 1920 range*/
@@ -93,6 +114,21 @@ main {
         column-gap: 2.25rem; /* Between the two image parts */
         row-gap: 72px; /* Between image parts and content box */
         margin-top: 54px; /* compensates for the scaling which bring images up by that much*/
+    }
+
+    .hero-content-box h1 {
+        max-width: 339px;
+    }
+
+    .hero-content-box p {
+        max-width: 457px;
+    }
+
+    .hero-buttons {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 16px;
     }
 }
 
@@ -156,16 +192,6 @@ main {
     }
 }
 
-.medium-box {
-    width: 540px;
-}
-
-.hero-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-}
-
 h1, h2, h3 {
     font-weight: 900;
 }
@@ -177,10 +203,16 @@ h1, h2 {
 h1 {
     width: 339px;
     margin: 0 auto 24px;
-    font-size: 48px;
-    line-height: 100%;
+    font-size: 40px;
+    line-height: 44px;
 }
 
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 48px;
+        line-height: 100%;
+    }
+}
 @media screen and (min-width: 1440px) {
     h1 {
         width: 445px;
@@ -188,10 +220,6 @@ h1 {
         font-size: 64px;
         line-height: 100%;
     }
-}
-
-.hero-content-box p {
-    margin-bottom: 32px;
 }
 
 .btn {
