@@ -160,3 +160,13 @@ h2 {
     width: 445px;
     margin: 0 auto 32px;
 }
+
+.second-divider {
+    position: relative;
+    top: 28px; /* Half of the circle size */
+}
+
+.footer-content {
+    background: lightblue;
+    height: 308px;
+}
