@@ -67,6 +67,7 @@ main {
     gap: 1rem;
     transform: scale(1.15);
     margin-top: 43px; /* compensates for the scaling which bring images up by that much*/
+    margin-bottom: 100px;
 }
 
 .hero-image-left {
@@ -81,7 +82,6 @@ main {
 
 .hero-content-box {
     order: 3;
-    margin-bottom: 100px;
     text-align: center;
 }
 
