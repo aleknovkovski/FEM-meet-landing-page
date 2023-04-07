@@ -81,7 +81,7 @@ main {
 }
 
 .medium-box {
-    width: 540px;
+    width: 327px;
 }
 
 .hero-content-box {
@@ -154,6 +154,10 @@ main {
 
     .hero-content-box {
         order: 2;
+    }
+
+    .medium-box {
+        width: 540px;
     }
 
     .hero-image-right {
@@ -296,7 +300,6 @@ h1 {
 .benefits-box {
     text-align: center;
     margin: 0 auto;
-    width: 573px;
 }
 
 h3 {
@@ -310,19 +313,24 @@ h3 {
 
 h2 {
     margin-bottom: 32px;
-    font-size: 40px;
-    line-height: 44px;
-}
-
-.benefits-box h2 {
-    width: 445px;
-    margin: 0 auto 32px;
+    font-size: 32px;
+    line-height: 36px;
 }
 
 @media screen and (min-width: 768px) {
     .people-boxes img {
         width: 164px;
         border-radius: 8px;
+    }
+
+    .benefits-box h2 {
+        width: 445px;
+        margin: 0 auto 32px;
+    }
+
+    h2 {
+        font-size: 40px;
+        line-height: 44px;
     }
 }
 
