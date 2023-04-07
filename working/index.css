@@ -94,6 +94,10 @@ h1 {
     font-weight: 900;
 }
 
+.btn-secondary {
+    background: #855FB1;
+}
+
 .vertical-line {
     height: 84px;
     mix-blend-mode: normal;
