@@ -14,6 +14,7 @@ body {
     width: 100vw;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 /* I'm only going to use this off-set look for hero images in the 1400-> 1600 range*/
