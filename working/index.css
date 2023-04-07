@@ -121,8 +121,12 @@ main {
         max-width: 339px;
     }
 
+    .medium-box {
+        width: 457px;
+    }
+
     .hero-content-box p {
-        max-width: 457px;
+        max-width: unset; /* Was set on mobile where it's different from box-size*/
     }
 
     .hero-buttons {
@@ -138,7 +142,7 @@ main {
         margin-top: 0;
         width: 100vw;
         justify-content: space-between;
-        align-items: flex-end;
+        align-items: flex-end; /* to match alignment on 1440 as figma */
         flex-wrap: unset;
         transform: scale(1);
     }
@@ -158,6 +162,10 @@ main {
 
     .medium-box {
         width: 540px;
+    }
+
+    .hero-content-box h1 {
+        max-width: unset; /* Was set on tablet where it's fixed-size */
     }
 
     .hero-image-right {
