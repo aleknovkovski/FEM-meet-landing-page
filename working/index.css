@@ -77,6 +77,7 @@ main {
 .hero-content-box {
     order: 3;
     margin-bottom: 100px;
+    text-align: center;
 }
 
 /* I'm only going to use this off-set look for hero images in the 1440-> 1920 range*/
@@ -147,12 +148,6 @@ main {
 
 .medium-box {
     width: 540px;
-}
-
-.hero-content-box {
-    flex-shrink: 0;
-    text-align: center;
-    padding-top: 54px; /*358 - 304 is 54*/
 }
 
 .hero-buttons {
