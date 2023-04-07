@@ -247,6 +247,7 @@ h1 {
 .benefits-box {
     text-align: center;
     margin: 0 auto;
+    width: 573px;
 }
 
 h3 {
@@ -280,6 +281,13 @@ h2 {
         width: 255px;
         border-radius: 8px;
     }
+
+    .benefits-box {
+        text-align: center;
+        margin: 0 auto;
+        width: 540px;
+    }
+
 }
 
 .second-divider {
