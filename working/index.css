@@ -62,11 +62,12 @@ main {
 }
 
 h1 {
+    width: 445px;
+    margin: 0 auto 34px;
     font-weight: 900;
     font-size: 64px;
     line-height: 100%;
     color: #28283D;
-    margin-bottom: 34px;
 }
 
 .hero-content-box p {
