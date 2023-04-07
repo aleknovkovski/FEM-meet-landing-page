@@ -23,30 +23,56 @@ main {
     margin-bottom: 72px;
 }
 
-.hero {
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-bottom: 110px;
+
+
+/* I'm only going to use this off-set look for hero images in the 1440-> 1920 range*/
+/* And another off-set free look from 1920 upwards*/
+
+@media screen and (min-width: 1440px) {
+    .hero {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-bottom: 110px;
+    }
+
+    .hero-image-left {
+        width: 35%;
+        flex-shrink: 1;
+        position: relative;
+        left: -40px;
+    }
+
+    .hero-image-right {
+        width: 35%;
+        flex-shrink: 1;
+        position: relative;
+        right: -40px;
+        top: 60px
+    }
 }
 
-/* I'm only going to use this off-set look for hero images in the 1400-> 1600 range*/
-/* And another off-set free look from 1600 to 1900, and a contained look from 1900 up*/
+@media screen and (min-width: 1600px) {
+    .hero-image-left {
+        width: 30%;
+    }
 
-.hero-image-left {
-    width: 35%;
-    flex-shrink: 1;
-    position: relative;
-    left: -40px;
+    .hero-image-right {
+        width: 30%;
+    }
 }
 
-.hero-image-right {
-    width: 35%;
-    flex-shrink: 1;
-    position: relative;
-    right: -40px;
-    top: 60px
+@media screen and (min-width: 1920px) {
+    .hero {
+        justify-content: center;
+    }
+    .hero-image-left {
+        width: 20%;
+    }
+    .hero-image-right {
+        width: 20%;
+    }
 }
 
 .medium-box {
