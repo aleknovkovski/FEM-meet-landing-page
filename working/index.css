@@ -11,12 +11,16 @@ body {
     background: #FAFAFA;
 }
 
-.hero {
+main {
     overflow: hidden;
+}
+
+.hero {
     width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 110px;
 }
 
 /* I'm only going to use this off-set look for hero images in the 1400-> 1600 range*/
@@ -71,6 +75,7 @@ h1 {
     opacity: 0.25;
     border: 1px solid #87879D;
 }
+
 .numbered-divider {
     display: flex;
     flex-direction: column;
