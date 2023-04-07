@@ -171,17 +171,17 @@ h2 {
     z-index: 2;
 }
 
-.footer-content {
+.footer-box {
     position: relative;
     background-size: cover;
     height: 308px;
 }
 
-.footer-content p, .footer-content h2 {
+.footer-box p, .footer-box h2 {
     color: #FAFAFA;
 }
 
-.footer-content::before {
+.footer-box::before {
     z-index: -1;
     content: ' ';
     display: block;
@@ -197,7 +197,7 @@ h2 {
     background-size: cover;
 }
 
-.footer-content::after {
+.footer-box::after {
     z-index: -2;
     content: ' ';
     display: block;
