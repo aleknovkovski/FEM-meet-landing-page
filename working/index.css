@@ -48,9 +48,12 @@ main {
     top: 60px
 }
 
+.medium-box {
+    width: 540px;
+}
+
 .hero-content-box {
     flex-shrink: 0;
-    width: 540px;
     text-align: center;
     padding-top: 54px; /*358 - 304 is 54*/
 }
@@ -124,4 +127,9 @@ h1 {
 .people-boxes img {
     width: 255px;
     border-radius: 8px;
+}
+
+.benefits-box {
+    text-align: center;
+    margin: 0 auto;
 }
