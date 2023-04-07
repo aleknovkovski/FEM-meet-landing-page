@@ -114,7 +114,7 @@ main {
     .hero {
         column-gap: 2.25rem; /* Between the two image parts */
         row-gap: 72px; /* Between image parts and content box */
-        margin-top: 54px; /* compensates for the scaling which bring images up by that much*/
+        margin-top: 60px; /* compensates for the scaling which bring images up by that much*/
         /*margin-bottom: 100px;*/
     }
 
