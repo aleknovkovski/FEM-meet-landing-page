@@ -60,6 +60,8 @@ main {
         justify-content: space-between;
         align-items: flex-start;
         padding-bottom: 110px;
+        flex-wrap: unset;
+        transform: scale(1);
     }
 
     .hero-image-left {
@@ -67,6 +69,11 @@ main {
         flex-shrink: 1;
         position: relative;
         left: -40px;
+        order: 1;
+    }
+
+    .hero-content-box {
+        order: 2;
     }
 
     .hero-image-right {
@@ -74,7 +81,8 @@ main {
         flex-shrink: 1;
         position: relative;
         right: -40px;
-        top: 60px
+        top: 60px;
+        order: 3;
     }
 }
 
