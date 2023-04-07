@@ -98,12 +98,20 @@ h1 {
     color: #8FE3F9
 }
 
+.btn:hover {
+    background: #71C0D4;
+}
+
 .btn-secondary {
     background: #855FB1;
 }
 
 .btn-secondary span {
     color: #D9B8FF;
+}
+
+.btn-secondary:hover {
+    background: #B18BDD;
 }
 
 .vertical-line {
