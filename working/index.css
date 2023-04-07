@@ -2,10 +2,19 @@
     margin: 0;
 }
 
-main {
-    overflow: hidden;
-}
 .hero {
+    overflow: hidden;
     width: 100vw;
     display: flex;
+}
+
+.hero-image-left {
+    position: relative;
+    left: -40px;
+}
+
+.hero-image-right {
+    position: relative;
+    right: -40px;
+    top: 60px
 }
