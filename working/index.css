@@ -35,7 +35,7 @@ main {
     margin: 0 auto;
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width: 1440px) {
     body {
         font-weight: 500;
         font-size: 18px;
@@ -234,13 +234,13 @@ h1 {
 .people-boxes {
     display: flex;
     flex-direction: row;
-    gap: 30px;
-    margin-top: 64px;
-    margin-bottom: 80px;
+    gap: 11px;
+    margin-top: 67px;
+    margin-bottom: 39px;
 }
 
 .people-boxes img {
-    width: 255px;
+    width: 164px;
     border-radius: 8px;
 }
 
@@ -267,6 +267,19 @@ h2 {
 .benefits-box h2 {
     width: 445px;
     margin: 0 auto 32px;
+}
+
+@media screen and (min-width: 1440px) {
+    .people-boxes {
+        gap: 30px;
+        margin-top: 64px;
+        margin-bottom: 80px;
+    }
+
+    .people-boxes img {
+        width: 255px;
+        border-radius: 8px;
+    }
 }
 
 .second-divider {
